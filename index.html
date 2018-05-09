@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="shortcut icon" href="img/favicon.ico" />
+<link href="http://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="style.css?v=1.5028" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body background="img\bgBlue.jpg">
+	<div class="container-fluid">
+		<div class="col-md-3"></div>
+		<div class="col-md-8">
+			<div id="nojeu">
+				<p>
+					Votre nom: <input id="nom" type="text">
+					<button id="joue">Jouer !</button>
+				</p>
+
+			</div>
+			<div id="jeu">
+				<center><p>
+					Votre nom : <span id="Spannom"></span>
+				</p></center>
+				<br>
+				<br>
+				<center><p>Pour gagner des donuts ou acheter des générateurs de donuts, cliquez
+					sur les images ! (Les prix sont affichés en dessous)</p></center>
+				<br><center><img src="img/donut1.png" id="donut" class="img-responsive"></center><br>
+				<center><p>
+					Nombre de chocolate donuts: <span id="nbdonut"></span>
+				</p></center>
+				<br><br>
+				<center><img src="img/pinkdonut.png" id="generateurdonut" class="img-responsive"></center>
+				<br><center><p>
+					Nombre de pink donuts (generateur de chocolate donuts): <span id="nbGen"></span>
+				</p></center>
+				<center><p>
+					pink donuts requis : <span id="reqNbGen"></span> 
+				 </p></center>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/Script.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
